@@ -1,0 +1,75 @@
+body {
+  background-image: url("../images/bg.jpg");
+  background-repeat: space;
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+/* 메뉴바 */
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #0072B8;
+}
+
+a {
+  color:black;
+  text-decoration: none;
+}
+/* 프로필 */
+img {
+  display: block; 
+  margin: 100px auto;
+  margin-bottom: 50px;
+  border-radius: 50%;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+/* 스킬 */
+.skillsBox {
+  width: 400px;
+  background-color: white;
+  background-color: rgba( 255, 255, 255, 0.2 );
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+li {
+  font-size: 100px;
+  list-style-type: none;
+  background-color: yellow;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-size: 16px;
+  color: white;
+  padding: 20px;
+}
+
+.contactBox {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright {
+  font-size: 12px;
+  text-align: center;
+  color: gray;
+  position: fixed;
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+}
